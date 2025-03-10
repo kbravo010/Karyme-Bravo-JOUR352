@@ -1,9 +1,85 @@
-h1 {
-    color:black;
-    font-family: "Roboto", serif;
+/*
+    * My COLOR PALLETE
+    * Color 1 - #4E3D42
+    * Color 2 - #6D6466
+    * Color 3 - #9F9F92
+    * Color 4 - #C9D5B5
+    * Color 5 - #E3DBDB
+ */
+
+@media {
+    h1 {
+        color: black;
+        font-family: "Roboto", serif;
+        font-size: 90;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        margin: 171px 0px 0px 50px;
+    }
+
+    h2 {
+        margin: 10px 0px 0px 50px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 1000px;
+        display: block;
+        margin: 50px auto 0px auto;
+        text-align: center;
+    }
+
+    button {
+        border-radius: 20px;
+        border: none;
+        width: 200px;
+        padding: 10px 50px 10px 50px;
+        margin: 50px;
+    }
+
+    body {
+        background-color: #e3dbdb;
+    }
+
+    #topper {
+        background-color: #e3dbdb;
+        height: 600px;
+    }
+
+    #navigation {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        background-color: #6d6466;
+        color: white;
+    }
+
+    h3 {
+        padding: 25px 0px 25px 0px;
+    }
+
+    h4 {
+        text-decoration: underlines;
+        font-size: 50px;
+    }
+
+    .jobtitle {
+        color: black;
+        font-size: 30px;
+        font-family: "Roboto", serif;
+    }
+
+    .jobs {
+        margin: 20px 0px 0px 0px;
+    }
 }
 
-img {
-    width: 100%;
-}
+@media (min-width: 576px) {
+    h1 {
+        font-size: 100px;
+        margin: 50px 0px 0px 50px;
+    }
 
+    img {
+        width: 85%;
+    }
+}
