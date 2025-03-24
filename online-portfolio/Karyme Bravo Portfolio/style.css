@@ -9,12 +9,12 @@
 
 @media {
     h1 {
-        color: black;
+        color: #4e3d42;
         font-family: "Roboto", serif;
-        font-size: 90;
+        font-size: 50px;
         line-height: 1.2;
-        letter-spacing: 1px;
-        margin: 171px 0px 0px 50px;
+        letter-spacing: 2px;
+        margin: 10px 0px 0px 50px;
     }
 
     h2 {
@@ -22,7 +22,7 @@
     }
 
     img {
-        width: 100%;
+        width: 60%;
         border-radius: 1000px;
         display: block;
         margin: 50px auto 0px auto;
@@ -42,6 +42,9 @@
     }
 
     #topper {
+        /*background-image: url(Photo%20of%20Myself.JPEG);
+         background-size: cover;
+        background-positions: 0 30%; */
         background-color: #e3dbdb;
         height: 600px;
     }
@@ -60,16 +63,17 @@
     h4 {
         text-decoration: underlines;
         font-size: 50px;
+        margin: 50px 0px 10px 0px;
     }
 
     .jobtitle {
-        color: black;
+        color: #4e3d42;
         font-size: 30px;
         font-family: "Roboto", serif;
     }
 
     .jobs {
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 10px 0px;
     }
 }
 
@@ -80,6 +84,35 @@
     }
 
     img {
-        width: 85%;
+        width: 100%;
+    }
+
+    h5 {
+        text-decoration: underlines;
+        font-size: 50px;
+        margin: 25px 0px 0px 0px;
+    }
+
+    .position {
+        margin: 20px 0px 10px 0px;
+        font-family: "Roboto", serif;
+        text-decoration: underlines;
+    }
+
+    .journalism {
+        color: #4e3d42;
+        font-size: 30px;
+        font-family: "Roboto", serif;
+    }
+
+    .title {
+        color: #4e3d42;
+        font-family: "Roboto", serif;
+    }
+
+    .institution {
+        font-family: "Roboto", serif;
+        margin: 0px 0px 50px 10px;
+        text-decoration: underlines;
     }
 }
