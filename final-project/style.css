@@ -44,8 +44,10 @@ img {
 
 #caption {
     font-size: 11px;
-    text-align: center;
-    color: #444555; 
+    text-align: left;
+    color: #444555;
+    padding: 3px 72px 1px 100px;
+
 }
 
 .container {
