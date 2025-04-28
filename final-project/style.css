@@ -1,0 +1,57 @@
+/*Color Pallete
+ * Black - #141311
+ * Red - #ff3131
+ * Gray: #444555
+ * */
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 21px 29px 3px 27px;
+
+}
+#headline {
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    text-align:center;
+    
+}
+
+#subhead {
+    text-align:center;
+    font-size: 18px;
+    padding: 13px 0px 2px 0px;
+}
+
+#author {
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#date {
+    font-size: 14px;
+    color: #444555;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin: auto;
+}
+
+#caption {
+    font-size: 11px;
+    text-align: center;
+    color: #444555; 
+}
+
+.container {
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 10px 56px 12px 56px;
+    text-align:left;
+}
