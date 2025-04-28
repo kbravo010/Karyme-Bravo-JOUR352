@@ -1,7 +1,9 @@
 /*Color Pallete
  * Black - #141311
- * Red - #ff3131
+ * Red - #ff0000
  * Gray: #444555
+ * Light Red: #ed3f3f
+ * Dark Red: #a80e0e
  * */
 
 h1 {
@@ -52,8 +54,22 @@ img {
 
 .container {
     font-family: "Noto Serif", serif;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 1.5;
     padding: 10px 56px 12px 56px;
     text-align:left;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 576px) {
+    h1 {
+        font-size: 60px
+    }
 }
