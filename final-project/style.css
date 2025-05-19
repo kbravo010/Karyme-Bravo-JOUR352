@@ -22,6 +22,7 @@
     #subhead {
         text-align: center;
         font-size: 18px;
+        font-family: "Ubuntu Condensed";
     }
 
     #author {
@@ -33,6 +34,7 @@
     #date {
         font-size: 14px;
         color: #444555;
+        font-family: "Ubuntu Condensed";
     }
 
     img {
@@ -50,10 +52,11 @@
         text-align: left;
         color: #444555;
         padding: 3px 0px 1px 0px;
+        font-family:  Serif;
     }
 
     .container {
-        font-family: "Noto Serif", serif;
+        font-family: Serif;
         font-size: 19px;
         line-height: 1.5;
         padding: 10px 56px 12px 56px;
