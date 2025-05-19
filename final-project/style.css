@@ -6,70 +6,114 @@
  * Dark Red: #a80e0e
  * */
 
-h1 {
-    font-weight: bold;
-    font-size: 50px;
-    padding: 21px 29px 3px 27px;
+@media screen {
+    h1 {
+        font-weight: bold;
+        font-size: 40px;
+        padding: 21px 29px 3px 27px;
+    }
 
-}
-#headline {
-    font-family: "Noto Serif", serif;
-    font-size: 60px;
-    text-align:center;
+    #headline {
+        font-family: "Ubuntu Condensed";
+        font-size: 60px;
+        text-align: center;
+    }
+
+    #subhead {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #author {
+        text-align: center;
+        font-size: 16px;
+        font-family: "Ubuntu Condensed";
+    }
+
+    #date {
+        font-size: 14px;
+        color: #444555;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #topimg {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .caption {
+        font-size: 11px;
+        text-align: left;
+        color: #444555;
+        padding: 3px 0px 1px 0px;
+    }
+
+    .container {
+        font-family: "Noto Serif", serif;
+        font-size: 19px;
+        line-height: 1.5;
+        padding: 10px 56px 12px 56px;
+        text-align: left;
+    }
+
+    .flourish-embed flourish-chart {
+        padding: 10px 56px 12px 56px;
+    }
+
+    .pullquote {
+        padding: 30px 0px 30px 0px;
+        color: #ff0000;
+    }
+
+    .quote-line {
+        border-top: 2.5px solid #ff0000;
+        border-bottom: 2.5px solid #ff0000;
+        width: 100%;
+    }
+
+    .quotemark {
+        float: left;
+        font-size: 100px;
+        font-weight: bold;
+        line-height: 0.8;
+        padding: 0px 10px 0px 0px;
+    }
+
+    .quote {
+        padding: 10px 0px 10px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
     
+    .attribution {
+        text-align: right;
+        padding: 0px 20px 10px 0px;
+        font-size: 20px;
+    }
+
+    a {
+        color: #ff0000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
-#subhead {
-    text-align:center;
-    font-size: 18px;
-    padding: 13px 0px 2px 0px;
-}
-
-#author {
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-}
-
-#date {
-    font-size: 14px;
-    color: #444555;
-}
-
-img {
-    width: 80%;
-    height: auto;
-    padding: 10px 0px 10px 0px;
-    display: block;
-    margin: auto;
-}
-
-#caption {
-    font-size: 11px;
-    text-align: left;
-    color: #444555;
-    padding: 3px 72px 1px 100px;
-
-}
-
-.container {
-    font-family: "Noto Serif", serif;
-    font-size: 19px;
-    line-height: 1.5;
-    padding: 10px 56px 12px 56px;
-    text-align:left;
-}
-
-a {
-    color: #ff0000;
-    text-decoration: none;
-    font-weight: bold;
-}
-a:hover {
-    text-decoration: underline;
-}
 @media (min-width: 576px) {
     h1 {
-        font-size: 60px
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768) {
+    h1 {
+        font-size: 80px;
     }
 }
